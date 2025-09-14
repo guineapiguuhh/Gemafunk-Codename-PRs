@@ -30,7 +30,7 @@ function create() {
 }
 
 function update(elapsed:Float) {
-    if (controls.BACK) {
+    if (controls.BACK || FlxG.mouse.justPressed) {
         dropThing.velocity.set(0, 0);
         FlxTween.tween(FlxG.camera, {zoom: 1}, 0.5, {ease: FlxEase.quartOut});
         for (i in [g, naosei, dropThing, naosei2]) FlxTween.tween(i, {alpha: 0}, 0.5, {ease: FlxEase.quartOut}); 

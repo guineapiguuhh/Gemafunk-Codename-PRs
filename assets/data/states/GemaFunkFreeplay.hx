@@ -64,6 +64,10 @@ function create()
     discord.scale.set(1.2, 1.2);
     FlxTween.tween(discord, {"scale.x": 1, "scale.y": 1}, 0.5, {ease: FlxEase.quintOut});
 
+    x = new FunkinSprite(1150,30,Paths.image("x"));
+    x.camera = uiCam;
+    add(x);
+
     mouse = new FunkinSprite(0, 0);
     mouse.frames = Paths.getSparrowAtlas(dir + "Mouse");
     mouse.animation.addByPrefix("idle", "Idle");
@@ -260,8 +264,8 @@ function update(e)
             }
         }
 
-        if (controls.BACK)
-            FlxG.switchState(new MainMenuState());
+            if (FlxG.mouse.overlaps(x) && FlxG.mouse.justPressed)         FlxG.switchState(new MainMenuState());
+
     
         FlxG.camera.scroll.y += FlxG.mouse.wheel == -1 ? 20 : (FlxG.mouse.wheel == 1 && FlxG.camera.scroll.y > 0) ? -20 : 0;
     }

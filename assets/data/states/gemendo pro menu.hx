@@ -8,6 +8,10 @@ import funkin.menus.ModSwitchMenu;
 import flixel.addons.display.FlxBackdrop;
 import funkin.backend.utils.CoolUtil;
 import flixel.text.FlxTextBorderStyle;
+#if mobile //putas na minha cama
+import funkin.mobile.controls.FlxDPadMode;
+import funkin.mobile.controls.FlxActionMode;
+#end
 
 var optionShit:Array<String> = ["storymode", "tracks", "credits", "options", "gallery"];
 
@@ -116,13 +120,13 @@ function update(elapsed:Float) {
                 mouse.y = FlxG.mouse.screenY;
             }
         if (canAccessDebugMenus) {
-            if (FlxG.keys.justPressed.SEVEN) {
+            if (FlxG.keys.justPressed.SEVEN #if mobile || vPad.buttonY.justPressed #end) {
                 persistentUpdate = false;
                 persistentDraw = true; 
                 openSubState(new EditorPicker());
             }
         }
-        if (controls.SWITCHMOD) {
+        if (controls.SWITCHMOD  #if mobile || vPad.buttonX.justPressed #end) {
             openSubState(new ModSwitchMenu());
             persistentUpdate = false;
             persistentDraw = true;

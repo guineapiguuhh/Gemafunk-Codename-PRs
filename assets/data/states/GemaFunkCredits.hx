@@ -41,6 +41,8 @@ function create()
     
     add(esc = new FunkinSprite(-30,10, Paths.image(dir + "esc"))).scale.set(0.3, 0.3);
 
+    add(hitboxButton = new FlxSprite(109,10).makeSolid(30, 30, FlxColor.TRANSPARENT));
+
     mouse = new FunkinSprite(0, 0);
     mouse.frames = Paths.getSparrowAtlas("menus/freeplay/Mouse");
     mouse.animation.addByPrefix("idle", "Idle");
@@ -57,8 +59,7 @@ var gay:Int = false;
 
 function update()
 {
-    if (controls.BACK)
-        FlxG.switchState(new MainMenuState());
+    if (FlxG.mouse.overlaps(hitboxButton) && FlxG.mouse.justPressed)         FlxG.switchState(new MainMenuState());
     
     if (controls.LEFT_P || mouse.x > setaoutrolado.x && mouse.x < setaoutrolado.x + setaoutrolado.width && mouse.y > setaoutrolado.y && mouse.y < setaoutrolado.y + setaoutrolado.height && FlxG.mouse.justPressed) 
         updateCurChar(-1);
