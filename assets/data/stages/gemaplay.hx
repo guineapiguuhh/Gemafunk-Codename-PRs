@@ -15,21 +15,39 @@ function postCreate() {
 	colorShader.saturation = 5;
 	colorShader.brightness = -70;
 
-    bg = new FlxSprite(-600, -260).loadGraphic(Paths.image(path + "back"));
+    bg = new FlxSprite(-800, -260).loadGraphic(Paths.image(path + "back"));
     bg.antialiasing = true;
+    bg.scale.set(1.1,1.1);
 
-	fg = new FlxSprite(-400, -350).loadGraphic(Paths.image(path + "fore"));
+	fg = new FlxSprite(-800, -150).loadGraphic(Paths.image(path + "fore"));
 	fg.scrollFactor.set(0.8,0.8);
-    
+    fg.scale.set(0.7,0.7);
+
     estrelas = new FlxBackdrop(Paths.image(path + "estrelas"));
     estrelas.blend = BlendMode.ADD;
 	estrelas.scale.set(2, 2);
     estrelas.visible = false;
     estrelas.velocity.set(-200, -200);
 
+    bernardo = new FunkinSprite(boyfriend.x+100, boyfriend.y+330, Paths.image("gemasfunks"));
+    bernardo.addAnim('BER IDLE', 'BER IDLE', 24, true);
+    bernardo.playAnim('BER IDLE');
+    add(bernardo);
+bernardo.antialiasing = true;
+    bernardo.scale.set(1.5,1.5);
+
+    gema = new FunkinSprite(dad.x-100, dad.y+200, Paths.image("gemasfunks"));
+    gema.addAnim('GEMA idle', 'GEMA idle', 24, true);
+    gema.playAnim('GEMA idle');
+    add(gema);
+    gema.antialiasing = true;
+    gema.scale.set(1.6,1.6);
+
     add(fg);
     insert(0, estrelas);
     insert(0, bg);
+
+    dad.alpha = boyfriend.alpha = 0;
 }
 
 function stepHit(curStep) {

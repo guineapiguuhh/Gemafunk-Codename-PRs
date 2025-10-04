@@ -45,6 +45,15 @@
             "views": 100,
             "time": [4, "anos"],
             "capa": 5
+        },
+        {
+            "name": "Angels",
+            "title": "Placeholder - Angels",
+            "canal": "Gemaplys",
+            "canalIcone": "canalGema",
+            "views": 100,
+            "time": [4, "anos"],
+            "capa": 5
         }
     ]
 }

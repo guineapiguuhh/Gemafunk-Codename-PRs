@@ -88,13 +88,10 @@ function generateSongs()
 {
     for (i in 0...songs.length)
     {
-        var thumb = new FunkinSprite(50 * (i * 8), 100);
-        thumb.frames = Paths.getSparrowAtlas("menus/freeplay/Thumbs");
-        thumb.animation.addByPrefix("thumb", "Capa" + songs[i].capa + " sem Layer");
-        thumb.animation.addByPrefix("bloqueado", "Capa" + songs[i].capa + "0");
-        thumb.animation.play("thumb");
-
+        var thumb = new FunkinSprite(50 * (i * 8), 100, Paths.image("menus/freeplay/thumbs/" + songs[i].name));
         thumb.scale.set(0.7, 0.7);
+        thumb.alpha = 1;
+        thumb.antialiasing = true;
 
         if(thumbs[thumbs.length - 1] != null)
         {
@@ -123,7 +120,7 @@ function generateSongs()
         title.font = Paths.font("arial.ttf");
         add(title);
 
-        var icone = new FunkinSprite(thumb.x + 60, thumb.y + 250, Paths.image("menus/freeplay/" + songs[i].canalIcone));
+        var icone = new FunkinSprite(thumb.x + 60, thumb.y + 250, Paths.image("menus/freeplay/canais/" + songs[i].canalIcone));
         icone.scale.set(0.5, 0.5);
         add(icone);
 
@@ -147,6 +144,7 @@ function generateSongs()
         else if (songz.contains("4ever") && !sogs.contains("silicat")) songToUnlock = "silicat";
         else if (songz.contains("silicat") && !sogs.contains("tibba")) songToUnlock = "tibba";
         else if (songz.contains("tibba") && !sogs.contains("ghosttap")) songToUnlock = "ghosttap";
+        else if (songz.contains("ghosttap") && !sogs.contains("angels")) songToUnlock = "angels";
         else songToUnlock = "nada";
 
         if (!sogs.contains(songToUnlock) && songToUnlock != "nada") sogs.push(songToUnlock);
@@ -168,7 +166,7 @@ function generateSongs()
             add(lock);
             locks.push(lock);
 
-            thumb.animation.play("bloqueado", true);
+            thumb.alpha = 0.5;
 
             if (songs[i].name == songToUnlock)
             {
@@ -179,7 +177,7 @@ function generateSongs()
                     new FlxTimer().start(1, function(t:FlxTimer) {
                         FlxTween.tween(lock, {alpha: 0}, 1, {ease: FlxEase.quintOut, onComplete: function() {
                             lock.destroy();
-                            thumb.animation.play("thumb", true);
+                            thumb.alpha = 1;
                             thumb.scale.set(0.7, 0.7);
                         }});
                     });

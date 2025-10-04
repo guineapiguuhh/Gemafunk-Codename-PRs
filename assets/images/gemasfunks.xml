@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="gemasfunks.png" width="7976" height="822">
+	<SubTexture name="BER IDLE0001" x="6346" y="493" width="361" height="326" rotated="true" frameX="-0" frameY="-0" frameWidth="330" frameHeight="362"/>
+	<SubTexture name="BER IDLE0002" x="4911" y="486" width="353" height="324" rotated="true" frameX="-3" frameY="-9" frameWidth="330" frameHeight="362"/>
+	<SubTexture name="BER IDLE0003" x="4214" y="482" width="344" height="322" rotated="true" frameX="-6" frameY="-18" frameWidth="330" frameHeight="362"/>
+	<SubTexture name="BER IDLE0004" x="3532" y="477" width="336" height="319" rotated="true" frameX="-9" frameY="-26" frameWidth="330" frameHeight="362"/>
+	<SubTexture name="BER IDLE0005" x="2864" y="470" width="329" height="317" rotated="true" frameX="-12" frameY="-33" frameWidth="330" frameHeight="362"/>
+	<SubTexture name="BER IDLE0006" x="2209" y="469" width="324" height="315" rotated="true" frameX="-14" frameY="-38" frameWidth="330" frameHeight="362"/>
+	<SubTexture name="BER IDLE0007" x="1887" y="466" width="319" height="313" rotated="true" frameX="-17" frameY="-43" frameWidth="330" frameHeight="362"/>
+	<SubTexture name="BER IDLE0008" x="1250" y="457" width="315" height="312" rotated="true" frameX="-18" frameY="-47" frameWidth="330" frameHeight="362"/>
+	<SubTexture name="BER IDLE0009" x="935" y="457" width="312" height="310" rotated="true" frameX="-20" frameY="-50" frameWidth="330" frameHeight="362"/>
+	<SubTexture name="BER IDLE0010" x="622" y="455" width="310" height="309" rotated="true" frameX="-21" frameY="-52" frameWidth="330" frameHeight="362"/>
+	<SubTexture name="BER IDLE0011" x="311" y="451" width="308" height="308" frameX="-22" frameY="-54" frameWidth="330" frameHeight="362"/>
+	<SubTexture name="BER IDLE0012" x="7576" y="231" width="307" height="307" frameX="-23" frameY="-55" frameWidth="330" frameHeight="362"/>
+	<SubTexture name="BER IDLE0013" x="1" y="447" width="307" height="307" frameX="-23" frameY="-55" frameWidth="330" frameHeight="362"/>
+	<SubTexture name="BER IDLE0014" x="1568" y="462" width="316" height="312" rotated="true" frameX="-18" frameY="-46" frameWidth="330" frameHeight="362"/>
+	<SubTexture name="BER IDLE0015" x="2536" y="470" width="325" height="315" rotated="true" frameX="-14" frameY="-37" frameWidth="330" frameHeight="362"/>
+	<SubTexture name="BER IDLE0016" x="3196" y="473" width="333" height="317" rotated="true" frameX="-11" frameY="-29" frameWidth="330" frameHeight="362"/>
+	<SubTexture name="BER IDLE0017" x="3871" y="481" width="340" height="320" rotated="true" frameX="-8" frameY="-22" frameWidth="330" frameHeight="362"/>
+	<SubTexture name="BER IDLE0018" x="4561" y="484" width="347" height="322" rotated="true" frameX="-5" frameY="-15" frameWidth="330" frameHeight="362"/>
+	<SubTexture name="BER IDLE0019" x="5267" y="486" width="353" height="324" rotated="true" frameX="-3" frameY="-9" frameWidth="330" frameHeight="362"/>
+	<SubTexture name="BER IDLE0020" x="5623" y="490" width="357" height="324" rotated="true" frameX="-2" frameY="-5" frameWidth="330" frameHeight="362"/>
+	<SubTexture name="BER IDLE0021" x="5983" y="492" width="360" height="325" rotated="true" frameX="-1" frameY="-2" frameWidth="330" frameHeight="362"/>
+	<SubTexture name="BER IDLE0022" x="6710" y="494" width="360" height="326" rotated="true" frameX="-0" frameY="-1" frameWidth="330" frameHeight="362"/>
+	<SubTexture name="BER IDLE0023" x="7073" y="495" width="361" height="326" rotated="true" frameX="-0" frameY="-0" frameWidth="330" frameHeight="362"/>
+	<SubTexture name="ELISA IDLE0001" x="3640" y="1" width="376" height="223" rotated="true" frameX="-0" frameY="-0" frameWidth="271" frameHeight="379"/>
+	<SubTexture name="ELISA IDLE0002" x="1107" y="1" width="372" height="216" rotated="true" frameX="-5" frameY="-5" frameWidth="271" frameHeight="379"/>
+	<SubTexture name="ELISA IDLE0003" x="1" y="1" width="369" height="211" rotated="true" frameX="-9" frameY="-9" frameWidth="271" frameHeight="379"/>
+	<SubTexture name="ELISA IDLE0004" x="373" y="1" width="365" height="213" rotated="true" frameX="-12" frameY="-13" frameWidth="271" frameHeight="379"/>
+	<SubTexture name="ELISA IDLE0005" x="741" y="1" width="363" height="215" rotated="true" frameX="-15" frameY="-16" frameWidth="271" frameHeight="379"/>
+	<SubTexture name="ELISA IDLE0006" x="1482" y="1" width="360" height="217" rotated="true" frameX="-17" frameY="-19" frameWidth="271" frameHeight="379"/>
+	<SubTexture name="ELISA IDLE0007" x="1845" y="1" width="358" height="219" rotated="true" frameX="-18" frameY="-21" frameWidth="271" frameHeight="379"/>
+	<SubTexture name="ELISA IDLE0008" x="2206" y="1" width="357" height="220" rotated="true" frameX="-19" frameY="-22" frameWidth="271" frameHeight="379"/>
+	<SubTexture name="ELISA IDLE0009" x="2566" y="1" width="356" height="220" rotated="true" frameX="-19" frameY="-23" frameWidth="271" frameHeight="379"/>
+	<SubTexture name="ELISA IDLE0010" x="2566" y="1" width="356" height="220" rotated="true" frameX="-19" frameY="-23" frameWidth="271" frameHeight="379"/>
+	<SubTexture name="ELISA IDLE0011" x="2566" y="1" width="356" height="220" rotated="true" frameX="-19" frameY="-23" frameWidth="271" frameHeight="379"/>
+	<SubTexture name="ELISA IDLE0012" x="2566" y="1" width="356" height="220" rotated="true" frameX="-19" frameY="-23" frameWidth="271" frameHeight="379"/>
+	<SubTexture name="ELISA IDLE0013" x="6451" y="229" width="315" height="261" rotated="true" frameX="-10" frameY="-48" frameWidth="271" frameHeight="379"/>
+	<SubTexture name="ELISA IDLE0014" x="4062" y="227" width="325" height="251" rotated="true" frameX="-12" frameY="-42" frameWidth="271" frameHeight="379"/>
+	<SubTexture name="ELISA IDLE0015" x="2445" y="224" width="334" height="242" rotated="true" frameX="-15" frameY="-37" frameWidth="271" frameHeight="379"/>
+	<SubTexture name="ELISA IDLE0016" x="1232" y="221" width="341" height="233" rotated="true" frameX="-17" frameY="-33" frameWidth="271" frameHeight="379"/>
+	<SubTexture name="ELISA IDLE0017" x="1" y="215" width="346" height="229" rotated="true" frameX="-18" frameY="-30" frameWidth="271" frameHeight="379"/>
+	<SubTexture name="ELISA IDLE0018" x="4931" y="1" width="350" height="224" rotated="true" frameX="-19" frameY="-27" frameWidth="271" frameHeight="379"/>
+	<SubTexture name="ELISA IDLE0019" x="2925" y="1" width="353" height="221" rotated="true" frameX="-20" frameY="-25" frameWidth="271" frameHeight="379"/>
+	<SubTexture name="ELISA IDLE0020" x="3281" y="1" width="356" height="221" rotated="true" frameX="-19" frameY="-23" frameWidth="271" frameHeight="379"/>
+	<SubTexture name="ELISA IDLE0021" x="2566" y="1" width="356" height="220" rotated="true" frameX="-19" frameY="-23" frameWidth="271" frameHeight="379"/>
+	<SubTexture name="ELISA IDLE0022" x="2566" y="1" width="356" height="220" rotated="true" frameX="-19" frameY="-23" frameWidth="271" frameHeight="379"/>
+	<SubTexture name="ELISA IDLE0023" x="2566" y="1" width="356" height="220" rotated="true" frameX="-19" frameY="-23" frameWidth="271" frameHeight="379"/>
+	<SubTexture name="GEMA idle0001" x="4019" y="1" width="453" height="223" rotated="true" frameX="-5" frameY="-0" frameWidth="261" frameHeight="453"/>
+	<SubTexture name="GEMA idle0002" x="5738" y="1" width="448" height="225" rotated="true" frameX="-9" frameY="-5" frameWidth="261" frameHeight="453"/>
+	<SubTexture name="GEMA idle0003" x="350" y="219" width="443" height="229" rotated="true" frameX="-11" frameY="-9" frameWidth="261" frameHeight="453"/>
+	<SubTexture name="GEMA idle0004" x="1576" y="223" width="437" height="236" rotated="true" frameX="-9" frameY="-15" frameWidth="261" frameHeight="453"/>
+	<SubTexture name="GEMA idle0005" x="2782" y="225" width="429" height="242" rotated="true" frameX="-7" frameY="-22" frameWidth="261" frameHeight="453"/>
+	<SubTexture name="GEMA idle0006" x="3636" y="227" width="423" height="247" rotated="true" frameX="-5" frameY="-28" frameWidth="261" frameHeight="453"/>
+	<SubTexture name="GEMA idle0007" x="4390" y="227" width="416" height="252" rotated="true" frameX="-3" frameY="-34" frameWidth="261" frameHeight="453"/>
+	<SubTexture name="GEMA idle0008" x="5222" y="228" width="410" height="255" rotated="true" frameX="-2" frameY="-40" frameWidth="261" frameHeight="453"/>
+	<SubTexture name="GEMA idle0009" x="5635" y="229" width="406" height="258" rotated="true" frameX="-1" frameY="-44" frameWidth="261" frameHeight="453"/>
+	<SubTexture name="GEMA idle0010" x="6044" y="229" width="404" height="260" rotated="true" frameX="-0" frameY="-46" frameWidth="261" frameHeight="453"/>
+	<SubTexture name="GEMA idle0011" x="6769" y="230" width="401" height="261" rotated="true" frameX="-0" frameY="-49" frameWidth="261" frameHeight="453"/>
+	<SubTexture name="GEMA idle0012" x="7173" y="231" width="400" height="261" rotated="true" frameX="-0" frameY="-49" frameWidth="261" frameHeight="453"/>
+	<SubTexture name="GEMA idle0013" x="4809" y="228" width="410" height="253" rotated="true" frameX="-3" frameY="-40" frameWidth="261" frameHeight="453"/>
+	<SubTexture name="GEMA idle0014" x="3214" y="225" width="419" height="245" rotated="true" frameX="-6" frameY="-32" frameWidth="261" frameHeight="453"/>
+	<SubTexture name="GEMA idle0015" x="2016" y="224" width="426" height="239" rotated="true" frameX="-8" frameY="-25" frameWidth="261" frameHeight="453"/>
+	<SubTexture name="GEMA idle0016" x="796" y="220" width="433" height="232" rotated="true" frameX="-10" frameY="-19" frameWidth="261" frameHeight="453"/>
+	<SubTexture name="GEMA idle0017" x="7537" y="1" width="438" height="227" rotated="true" frameX="-12" frameY="-14" frameWidth="261" frameHeight="453"/>
+	<SubTexture name="GEMA idle0018" x="7092" y="1" width="442" height="226" rotated="true" frameX="-10" frameY="-10" frameWidth="261" frameHeight="453"/>
+	<SubTexture name="GEMA idle0019" x="6189" y="1" width="447" height="225" rotated="true" frameX="-8" frameY="-6" frameWidth="261" frameHeight="453"/>
+	<SubTexture name="GEMA idle0020" x="6639" y="1" width="450" height="225" rotated="true" frameX="-6" frameY="-3" frameWidth="261" frameHeight="453"/>
+	<SubTexture name="GEMA idle0021" x="5284" y="1" width="451" height="224" rotated="true" frameX="-5" frameY="-2" frameWidth="261" frameHeight="453"/>
+	<SubTexture name="GEMA idle0022" x="4475" y="1" width="453" height="223" rotated="true" frameX="-5" frameY="-0" frameWidth="261" frameHeight="453"/>
+	<SubTexture name="GEMA idle0023" x="4019" y="1" width="453" height="223" rotated="true" frameX="-5" frameY="-0" frameWidth="261" frameHeight="453"/>
+</TextureAtlas>
