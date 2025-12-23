@@ -1,2 +1,3 @@
-coco cagado
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+GemaFuck mod otimizado
+
+edited by me
